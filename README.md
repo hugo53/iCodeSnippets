@@ -63,3 +63,6 @@ chmod -R 777
 
 > Warning: Besure that your code is WILLING to go PUBLIC if you use public git repository!!!
 
+
+> Next task: Synchronize Bookmark Documentation.
+> Bookmark is saved in ```~/Library/Preferences/com.apple.dt.Xcode.plist``` with key ```Xcode.Organizer.Documentation.Bookmarks```. Just parse this key and get all items. 
