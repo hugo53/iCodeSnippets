@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>centertextlabel</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    pagePositionLbl = [[UILabel alloc] initWithFrame:CGRectMake(self.bounds.origin.x
+                                                                    + self.bounds.size.width/4.0,
+                                                                self.bounds.origin.y,
+                                                                self.bounds.size.width/2.0,
+                                                                BOTTOM_BAR_HEIGHT)];
+    pagePositionLbl.text = @"Page 2 of 6";
+    pagePositionLbl.textColor = [UIColor grayColor];
+    [pagePositionLbl setTextAlignment:NSTextAlignmentCenter];
+    [pagePositionLbl setBaselineAdjustment:UIBaselineAdjustmentAlignBaselines];
+//    [pagePositionLbl sizeToFit]; // Cannot use this if want to center the text
+    
+    [self addSubview:pagePositionLbl];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E9AF0FDA-E84A-4A84-861A-58C7725BEE3D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>centering text for UILabel</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Center Text for UILabel</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>bordercolor</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    self.frame = CGRectMake(0.0, 0.0, 0.0, 0.0);
+    self.layer.borderColor =[UIColor blueColor].CGColor;
+    self.layer.borderWidth =  1.0;</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>0CB98211-A261-4427-8038-779406DB344B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Set border color for frame</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Frame Border Color Setting</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
