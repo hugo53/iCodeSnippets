@@ -4,13 +4,18 @@ Easy to do trivial things.
 
 
 ## How to install?
-Xcode provides an area to save snippet code for later using. Press ```Control + Option + Command + 2``` to show ```Code Snippet Library``` (right-lower corner).
+Xcode provides an area to save snippet code for later using. Press ```Control + Option + Command + 2``` to show
+Code Snippet Library (right-lower corner).
 
 Xcode saves its snippets code at location:
 
 ```bash
 ~/Library/Developer/Xcode/UserData/CodeSnippets/
+```
+
 or
+
+```bash
 /Users/username/Library/Developer/Xcode/UserData/CodeSnippets
 ```
 
@@ -24,18 +29,18 @@ cd ~/Library/Developer/Xcode/UserData/CodeSnippets/
 git init
 git remote set-url origin https://username@github.com/username/iCodeSnippets.git
 
-// Next, pull or push, it's up to you. Recommend that PULL first if your repo is not up-to-date.
+// Next, pull or push, it is up to you. Recommend that PULL first if your repo is not up-to-date.
 ```
 
 ##### Method 2
 ``` bash
 cd ~/Library/Developer/Xcode/UserData/
-cp CodeSnippets CodeSnippetsBackup	// Backup CodeSnippets folder if it is existing
-rm -r CodeSnippets // Remove CodeSnippets folder
+cp CodeSnippets CodeSnippetsBackup				// Backup CodeSnippets folder if it is existing
+rm -r CodeSnippets 								// Remove CodeSnippets folder
 git clone https://username@github.com/username/iCodeSnippets.git CodeSnippets
-cp CodeSnippetsBackup/* CodeSnippets // Optional, if you want to merge the exisiting snippets and snippets from repo
+cp CodeSnippetsBackup/* CodeSnippets/ 			// Optional, if you want to merge the exisiting snippets and snippets from repo
 
-// Next, PUSH or PULL, it's up to you. Recommend that PUSH first if your repo is merged!
+// Next, PUSH or PULL, it is up to you. Recommend that PUSH first if your repo is merged!
 ```
 
 ## TroubleShooting
