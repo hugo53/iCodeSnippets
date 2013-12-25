@@ -12,16 +12,14 @@ Xcode saves its snippets code at location:
 ```bash
 ~/Library/Developer/Xcode/UserData/CodeSnippets/
 ```
-
 or
-
 ```bash
 /Users/username/Library/Developer/Xcode/UserData/CodeSnippets
 ```
 
 Therefore, we will make a git repo which also locate at that location. Do that, we can make snippets to be updated just by pulling/pushing git repo.
 
-So, there are two ways to make your snippet on git repository.
+So, there are two ways to make your snippet go visible on git repository.
 
 ##### Method 1
 ``` bash
