@@ -22,7 +22,7 @@ Therefore, we will make a git repo which also locate at that location. Do that, 
 So, there are two ways to make your snippet go visible on git repository.
 
 ##### Method 1
-``` bash
+```
 cd ~/Library/Developer/Xcode/UserData/CodeSnippets/
 git init
 git remote set-url origin https://username@github.com/username/iCodeSnippets.git
@@ -31,7 +31,7 @@ git remote set-url origin https://username@github.com/username/iCodeSnippets.git
 ```
 
 ##### Method 2
-``` bash
+``` 
 cd ~/Library/Developer/Xcode/UserData/
 cp CodeSnippets CodeSnippetsBackup				// Backup CodeSnippets folder if it is existing
 rm -r CodeSnippets 								// Remove CodeSnippets folder
@@ -50,7 +50,7 @@ fatal: HTTP request failed
 ```
 
 Fix:
-```bash
+```
 git remote set-url origin https://username@github.com/username/iCodeSnippets.git
 ```
 
