@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>sleepmodechange</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (void)enableDeviceSleepMode {
+    [UIApplication sharedApplication].idleTimerDisabled = YES;
+	[UIApplication sharedApplication].idleTimerDisabled = NO;
+}
+
+- (void)disableDeviceSleepMode {
+    [UIApplication sharedApplication].idleTimerDisabled = NO;
+	[UIApplication sharedApplication].idleTimerDisabled = YES;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>37A3BB7A-7749-4ED7-B5F9-BEB19959EF44</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Change sleep mode, enable or disable</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Change Sleep Mode</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
