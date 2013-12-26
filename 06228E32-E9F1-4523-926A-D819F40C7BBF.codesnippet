@@ -3,26 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>hasarc</string>
+	<string>backgroundImageView</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#if  ! __has_feature(objc_arc)
-#error This file must be compiled with ARC. Use -fobjc-arc flag (or convert project to ARC).
-#endif</string>
+	<string>[self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"imagename"]]];
+    </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C0967FAD-4AF9-4AB3-9983-A6550D97799E</string>
+	<string>06228E32-E9F1-4523-926A-D819F40C7BBF</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>has arc </string>
+	<string>set background image for view</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>hasARC</string>
+	<string>backgroundImageForView</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
