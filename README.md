@@ -1,6 +1,9 @@
 # iCodeSnippets
 
-Easy to do trivial things.
+_Easy to do trivial things._
+
+Don't waste your time on trivial code even it is easy to write. We focus on making awesome products, right?
+If you have some blocks of code, and if they are not private, it is better if you share them to other peers. Now waiting for what? Let's contribute! All of you are welcome warmly!
 
 
 ## How to install?
@@ -57,11 +60,11 @@ git remote set-url origin https://username@github.com/username/iCodeSnippets.git
 May need to change ownership of the Snippets folder and its subfolders
 
 ```
-chmod -R 777
+chmod -R 777 CodeSnippets/
 ```
 
 
-> Warning: Besure that your code is WILLING to go PUBLIC if you use public git repository!!!
+> **Warning: Besure that your code is WILLING to go PUBLIC if you use public git repository!!!**
 
 
 > Next task: Synchronize Bookmark Documentation.
