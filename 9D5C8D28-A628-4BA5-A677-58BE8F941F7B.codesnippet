@@ -3,22 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>backgroundImageView</string>
+	<string>transparentnavigationbar</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"imagename"]]];
-    </string>
+	<string>    [self setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
+    self.translucent =YES;
+    self.shadowImage  = [UIImage new];
+    self.backgroundColor = [UIColor clearColor];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>06228E32-E9F1-4523-926A-D819F40C7BBF</string>
+	<string>9D5C8D28-A628-4BA5-A677-58BE8F941F7B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>set background image for view</string>
+	<string>Make navigation bar transparent</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>backgroundImageForView</string>
+	<string>TransparentNavigationBar</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    UINavigationItem *titleItem = [[UINavigationItem alloc]
+                                   initWithTitle:NSLocalizedString(@"magazineName", nil)];
+    // Set custom back button
+    titleItem.hidesBackButton = YES;
+    UIButton *backBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [backBtn setImage:[UIImage imageNamed:@"back"] forState:UIControlStateNormal];
+    [backBtn addTarget:self action:nil forControlEvents:UIControlEventTouchUpInside];
+    backBtn.imageEdgeInsets = UIEdgeInsetsMake(0.0, -10.0, 0.0, 10.0);
+    
+    [backBtn setFrame:CGRectMake(0.0, 0.0, 44, 44)];
+    UIBarButtonItem *backBtnItem = [[UIBarButtonItem alloc] initWithCustomView:backBtn];
+    [titleItem setLeftBarButtonItem:backBtnItem];
+    [backBtnItem release];
+    [backBtn release];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>0B4FA8FE-290C-4C14-A69F-628D0E8F5B69</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Custom back button in navigation bar</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>custom Back Button in navigation bar</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

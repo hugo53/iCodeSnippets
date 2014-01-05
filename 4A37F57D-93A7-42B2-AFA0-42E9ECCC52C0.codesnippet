@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>attributestringhyphen</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>        NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];
+        paragraphStyle.lineBreakMode = NSLineBreakByTruncatingTail;
+        paragraphStyle.alignment = NSTextAlignmentLeft;
+        paragraphStyle.hyphenationFactor = 1.0f;   // 1.0f may lead to a case like: 'abcdef ap-pro...' (ap-pro in approve) at the end of paragraph
+        NSDictionary *textAttribute = @{NSFontAttributeName : font,
+                                        NSParagraphStyleAttributeName: paragraphStyle,
+                                        NSForegroundColorAttributeName: [GlobalSetting sharedInstance].currentStyle.textColor};
+        NSAttributedString *attributeString = [[NSAttributedString alloc] initWithString:string attributes:textAttribute];
+        [paragraphStyle release];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>4A37F57D-93A7-42B2-AFA0-42E9ECCC52C0</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Create attribute string with hyphen for line breaking</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
